@@ -5,6 +5,9 @@
 
 <h1 align="center">👉 <a href="https://api-rick-and-morty-gamma.vercel.app/">Visualizar</a> 👈</h1>
 
+<h2>API</h2>
+https://rickandmortyapi.com/
+
 <h2>Tecnologias utilizadas</h2>
 
 - **React JS**
