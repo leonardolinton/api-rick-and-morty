@@ -180,8 +180,8 @@ export const Seta = styled.div`
 
 export const Pesquisa = styled.input`
   width: 500px;
-  border: 5px solid #00ff952e;
-  color: #00ff952e;
+  border: 5px solid #00ff62;
+  color: #00ff62;
   padding: 1rem 2rem;
   margin-top: 50px;
   font-size: 1.5rem;
@@ -192,7 +192,7 @@ export const Pesquisa = styled.input`
   z-index: 2;
 
   ::placeholder {
-    color: #00ff952e;
+    color: #00ff62;
   }
 
   &:focus {
