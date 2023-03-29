@@ -143,36 +143,52 @@ export const Seta = styled.div`
   height: 100px;
   width: 50px;
   color: #00ff62;
-  animation: arrow 1s ease-in-out 0s infinite normal forwards;
+  animation: arrow 1s ease 0s infinite normal forwards;
 
-  @keyframes arrow {
-	0%,
-	100% {
+ @keyframes arrow {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
 		transform: translateY(0);
 	}
 
-	10%,
-	30%,
-	50%,
-	70% {
-		transform: translateY(-8px);
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
 	}
 
-	20%,
-	40%,
-	60% {
-		transform: translateY(8px);
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
 	}
 
-	80% {
-		transform: translateY(6.4px);
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
 	}
 
 	90% {
-		transform: translateY(-6.4px);
+		animation-timing-function: ease-out;
+		transform: translateY(0);
 	}
 
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
 }
+ 
 @media (max-width: 1000px) {
     left: 45%;
   }
