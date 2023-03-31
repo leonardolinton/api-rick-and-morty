@@ -219,7 +219,7 @@ export const Personagem = styled.li`
   padding: 25px 20px;
   border-radius: 40px 10px;
   background-color: #000000cf;
-  border-radius: 30px 5px;
+  border-radius: 50px 10px;
   border: 5px solid #00ff6224;
   box-shadow: #325d443e 0px 6px 12px -2px, #00ff804b 0px 3px 7px -3px;
 
