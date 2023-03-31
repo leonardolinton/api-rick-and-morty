@@ -76,13 +76,13 @@ export default function Api() {
                   <S.Genero>
                     {character.gender}{" "}
                     {character.gender === "Male" ? (
-                      <RiMenLine color="#000" />
+                      <RiMenLine />
                     ) : character.gender === "Female" ? (
-                      <RiWomenLine color="#000" />
+                      <RiWomenLine />
                     ) : character.gender === "unknown" ? (
                       <RiForbidLine />
                     ) : (
-                      <RiForbidLine color="#000" />
+                      <RiForbidLine />
                     )}
                   </S.Genero>
                 </S.Tipo>

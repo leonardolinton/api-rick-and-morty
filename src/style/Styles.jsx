@@ -143,48 +143,16 @@ export const Seta = styled.div`
   height: 100px;
   width: 50px;
   color: #00ff62;
-  animation: arrow 1s ease 0s infinite normal forwards;
+  animation: arrow 1s ease-in-out 1s infinite normal forwards;
 
- @keyframes arrow {
+  @keyframes arrow {
 	0% {
-		animation-timing-function: ease-in;
 		opacity: 0;
 		transform: translateY(-250px);
 	}
 
-	38% {
-		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateY(0);
-	}
-
-	55% {
-		animation-timing-function: ease-in;
-		transform: translateY(-65px);
-	}
-
-	72% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
-
-	81% {
-		animation-timing-function: ease-in;
-		transform: translateY(-28px);
-	}
-
-	90% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
-
-	95% {
-		animation-timing-function: ease-in;
-		transform: translateY(-8px);
-	}
-
 	100% {
-		animation-timing-function: ease-out;
+		opacity: 1;
 		transform: translateY(0);
 	}
 }
@@ -251,15 +219,15 @@ export const Personagem = styled.li`
   padding: 25px 20px;
   border-radius: 40px 10px;
   background-color: #000000cf;
-  border-radius: 30px 10px;
-  border: 5px solid #00ff952e;
+  border-radius: 30px 5px;
+  border: 5px solid #00ff6224;
   box-shadow: #325d443e 0px 6px 12px -2px, #00ff804b 0px 3px 7px -3px;
 
   &:hover {
     z-index: 1;
     transform: scale(1.2);
-    box-shadow: 0 0 0 5px #00ff807a, 0 0 0 10px #00ff8057, 0 0 0 15px #00ff8044,
-      0 0 0 20px #00ff802d, 0 0 0 25px #00ff801d;
+    box-shadow: 0 0 0 5px #00ff629e, 0 0 0 10px #00ff6276, 0 0 0 15px #00ff6260,
+      0 0 0 20px #00ff6240, 0 0 0 25px #00ff621f;
   }
 
   @media (max-width: 1000px) {
